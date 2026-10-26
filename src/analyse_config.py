@@ -1,8 +1,6 @@
 """Paramètres de l'étape d'analyse (LLM, recherche, requêtes par type d'analyse)."""
 import os
-
 from dotenv import load_dotenv
-
 load_dotenv()
 
 # --- LLM -------------------------------------------------------------------
@@ -10,7 +8,6 @@ load_dotenv()
 # Les modèles "gemini-2.5-*" sont classés "legacy" par Google : on prend un modèle récent.
 # Si l'offre gratuite refuse "gemini-3.8-flash", essayer "gemini-3.5-flash-lite".
 MODELE_LLM = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
-
 # --- Citations ---------------------------------------------------------------
 # Dans Qdrant, la page 0 est la couverture (numérotation FinanceBench).
 # Les citations affichées utilisent la numérotation d'un lecteur PDF : page + 1.

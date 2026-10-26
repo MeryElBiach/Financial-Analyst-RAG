@@ -16,7 +16,6 @@ Utilisation :
     python src/analyseur.py 3M 2018 --json
 """
 import argparse
-
 from analyse_config import ANNEES_SUPPLEMENTAIRES, REQUETES, TYPES_ANALYSE
 from llm import charger_llm
 from prompts import PROMPT_COMMENTAIRE, PROMPT_EXTRACTION, PROMPT_SWOT
@@ -25,6 +24,7 @@ from recherche import (
     annees_indexees, chercher, citation_existe, formater_passages, ouvrir_base, source,
     trouver_entreprise, valeur_dans_passages,
 )
+
 from schemas import Extraction, LigneChiffre, LigneRatio, ResultatAnalyse, ResultatComplet, Swot
 
 TITRES = {"rentabilite": "rentabilité", "croissance": "croissance", "swot": "matrice SWOT"}
