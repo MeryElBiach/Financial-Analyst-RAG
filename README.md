@@ -1,4 +1,9 @@
 # Financial Analyst — RAG-Powered Financial Analysis Assistant
+## 🎥 Project Demo
+
+Watch the demo of **Financial-Analyst-RAG**, a RAG-based financial analysis assistant.
+
+[▶️ Watch the demo video](https://github.com/user-attachments/assets/49d5a055-cccc-4c48-924e-045d19937f76)
 
 **An AI-powered financial analysis assistant built with Retrieval-Augmented Generation (RAG), LangChain, Google Gemini, and Qdrant.**
 
